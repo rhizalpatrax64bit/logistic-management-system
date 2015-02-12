@@ -1,0 +1,1598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>c26ac956-d39b-491e-93c9-da288cc06b06</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>f12e28f7-cbd9-471c-9427-064058aae116</rd:ReportID>
+  <DataSets>
+    <DataSet Name="dsRESICARGO_V_RESICARGO">
+      <Fields>
+        <Field Name="NORESI">
+          <DataField>NORESI</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ASAL">
+          <DataField>ASAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TUJUAN">
+          <DataField>TUJUAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BERAT">
+          <DataField>BERAT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JUMLAH">
+          <DataField>JUMLAH</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PENGIRIM">
+          <DataField>PENGIRIM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ALAMATPENGIRIM">
+          <DataField>ALAMATPENGIRIM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PHONEPENGIRIM">
+          <DataField>PHONEPENGIRIM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PENERIMA">
+          <DataField>PENERIMA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ALAMATPENERIMA">
+          <DataField>ALAMATPENERIMA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PHONEPENERIMA">
+          <DataField>PHONEPENERIMA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LAYANAN">
+          <DataField>LAYANAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HARGA">
+          <DataField>HARGA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JENISKIRIMAN">
+          <DataField>JENISKIRIMAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ASURANSI">
+          <DataField>ASURANSI</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PPN">
+          <DataField>PPN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JUMLAHTOTAL">
+          <DataField>JUMLAHTOTAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="KETERANGANISI">
+          <DataField>KETERANGANISI</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INSTRUKSIKHUSUS">
+          <DataField>INSTRUKSIKHUSUS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DIM_P">
+          <DataField>DIM_P</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DIM_L">
+          <DataField>DIM_L</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DIM_T">
+          <DataField>DIM_T</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HPPENGIRIM">
+          <DataField>HPPENGIRIM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PACKING">
+          <DataField>PACKING</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BARCODE">
+          <DataField>BARCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAMAPERUSAHAAN">
+          <DataField>NAMAPERUSAHAAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ALAMATPERUSAHAAN">
+          <DataField>ALAMATPERUSAHAAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TELPPERUSAHAAN">
+          <DataField>TELPPERUSAHAAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FAXPERUSAHAAN">
+          <DataField>FAXPERUSAHAAN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TGLMANIFEST">
+          <DataField>TGLMANIFEST</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ETD">
+          <DataField>ETD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsRESICARGO</rd:DataSetName>
+        <rd:TableName>V_RESICARGO</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>19.50003in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="NORESI">
+        <rd:DefaultName>NORESI</rd:DefaultName>
+        <Top>0.625in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>94</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!NORESI.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <rd:DefaultName>textbox9</rd:DefaultName>
+        <Top>0.375in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>93</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>NO RESI</Value>
+      </Textbox>
+      <Textbox Name="TGLMANIFEST">
+        <rd:DefaultName>TGLMANIFEST</rd:DefaultName>
+        <Top>0.125in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>92</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4.25in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!TGLMANIFEST.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Top>0.125in</Top>
+        <Width>1.125in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>91</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>MANIFEST  DATE/TANGGAL</Value>
+      </Textbox>
+      <Textbox Name="textbox70">
+        <Top>0.625in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>90</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7.875in</Left>
+        <Height>0.25in</Height>
+        <Value>Fax :</Value>
+      </Textbox>
+      <Textbox Name="textbox69">
+        <rd:DefaultName>textbox69</rd:DefaultName>
+        <Top>0.625in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>89</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.375in</Left>
+        <Height>0.25in</Height>
+        <Value>Telp :</Value>
+      </Textbox>
+      <Textbox Name="textbox68">
+        <Top>0.25in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>88</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.375in</Left>
+        <Height>0.25in</Height>
+        <Value>Alamat :</Value>
+      </Textbox>
+      <Textbox Name="ALAMATPERUSAHAAN">
+        <rd:DefaultName>ALAMATPERUSAHAAN</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Width>2.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>87</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7.125in</Left>
+        <Height>0.375in</Height>
+        <Value>=First(Fields!ALAMATPERUSAHAAN.Value)</Value>
+      </Textbox>
+      <Textbox Name="NAMAPERUSAHAAN">
+        <rd:DefaultName>NAMAPERUSAHAAN</rd:DefaultName>
+        <Width>3in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>86</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.375in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!NAMAPERUSAHAAN.Value)</Value>
+      </Textbox>
+      <Textbox Name="LAYANAN">
+        <rd:DefaultName>LAYANAN</rd:DefaultName>
+        <Top>1.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>85</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!LAYANAN.Value)</Value>
+      </Textbox>
+      <Textbox Name="DIM_T">
+        <rd:DefaultName>DIM_T</rd:DefaultName>
+        <Top>5.75in</Top>
+        <Width>0.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>84</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.25in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!DIM_T.Value)</Value>
+      </Textbox>
+      <Textbox Name="DIM_L">
+        <rd:DefaultName>DIM_L</rd:DefaultName>
+        <Top>5.75in</Top>
+        <Width>0.375in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>83</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!DIM_L.Value)</Value>
+      </Textbox>
+      <Textbox Name="DIM_P">
+        <rd:DefaultName>DIM_P</rd:DefaultName>
+        <Top>5.75in</Top>
+        <Width>0.375in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>82</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!DIM_P.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <Top>5.75in</Top>
+        <Width>0.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>81</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2in</Left>
+        <Height>0.25in</Height>
+        <Value>x Tg</Value>
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Top>5.75in</Top>
+        <Width>0.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>80</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.375in</Left>
+        <Height>0.25in</Height>
+        <Value>x Lb</Value>
+      </Textbox>
+      <Textbox Name="textbox3">
+        <rd:DefaultName>textbox3</rd:DefaultName>
+        <Top>5.75in</Top>
+        <Width>0.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>79</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.75in</Left>
+        <Height>0.25in</Height>
+        <Value>P</Value>
+      </Textbox>
+      <Textbox Name="JUMLAHTOTAL">
+        <rd:DefaultName>JUMLAHTOTAL</rd:DefaultName>
+        <Top>4.75in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>78</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.5in</Height>
+        <Value>=First(Fields!JUMLAHTOTAL.Value)</Value>
+      </Textbox>
+      <Textbox Name="ASURANSI">
+        <rd:DefaultName>ASURANSI</rd:DefaultName>
+        <Top>3.375in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>77</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ASURANSI.Value)</Value>
+      </Textbox>
+      <Textbox Name="PPN">
+        <rd:DefaultName>PPN</rd:DefaultName>
+        <Top>2.5in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>76</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!PPN.Value)</Value>
+      </Textbox>
+      <Textbox Name="PACKING">
+        <rd:DefaultName>PACKING</rd:DefaultName>
+        <Top>1.75in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>75</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!PACKING.Value)</Value>
+      </Textbox>
+      <Textbox Name="ETD">
+        <rd:DefaultName>ETD</rd:DefaultName>
+        <Top>5.75in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>74</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ETD.Value)</Value>
+      </Textbox>
+      <Textbox Name="PHONEPENERIMA">
+        <rd:DefaultName>PHONEPENERIMA</rd:DefaultName>
+        <Top>4.125in</Top>
+        <Width>1.625in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>73</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!PHONEPENERIMA.Value)</Value>
+      </Textbox>
+      <Textbox Name="INSTRUKSIKHUSUS">
+        <rd:DefaultName>INSTRUKSIKHUSUS</rd:DefaultName>
+        <Top>4.375in</Top>
+        <Width>1.625in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>72</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.625in</Height>
+        <Value>=First(Fields!INSTRUKSIKHUSUS.Value)</Value>
+      </Textbox>
+      <Textbox Name="ALAMATPENERIMA">
+        <rd:DefaultName>ALAMATPENERIMA</rd:DefaultName>
+        <Top>2.75in</Top>
+        <Width>2.875in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>71</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.875in</Height>
+        <Value>=First(Fields!ALAMATPENERIMA.Value)</Value>
+      </Textbox>
+      <Textbox Name="PENERIMA">
+        <rd:DefaultName>PENERIMA</rd:DefaultName>
+        <Top>1.25in</Top>
+        <Width>2.75in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>70</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.5in</Height>
+        <Value>=First(Fields!PENERIMA.Value)</Value>
+      </Textbox>
+      <Textbox Name="KETERANGANISI">
+        <rd:DefaultName>KETERANGANISI</rd:DefaultName>
+        <Top>4.75in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>69</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.5in</Height>
+        <Value>=First(Fields!KETERANGANISI.Value)</Value>
+      </Textbox>
+      <Textbox Name="BERAT">
+        <rd:DefaultName>BERAT</rd:DefaultName>
+        <Top>1.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>68</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!BERAT.Value)</Value>
+      </Textbox>
+      <Textbox Name="JUMLAH">
+        <rd:DefaultName>JUMLAH</rd:DefaultName>
+        <Top>1.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>67</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!JUMLAH.Value)</Value>
+      </Textbox>
+      <Textbox Name="TUJUAN">
+        <rd:DefaultName>TUJUAN</rd:DefaultName>
+        <Top>0.375in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>66</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!TUJUAN.Value)</Value>
+      </Textbox>
+      <Textbox Name="ASAL">
+        <rd:DefaultName>ASAL</rd:DefaultName>
+        <Top>0.375in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>65</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!ASAL.Value)</Value>
+      </Textbox>
+      <Line Name="line21">
+        <Top>4.625in</Top>
+        <Width>1.875in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>64</ZIndex>
+        <Left>5in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line20">
+        <Top>3.875in</Top>
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>63</ZIndex>
+        <Left>5in</Left>
+        <Height>2.5in</Height>
+      </Line>
+      <Textbox Name="textbox53">
+        <Top>5.5in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>62</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4.125in</Left>
+        <Height>0.25in</Height>
+        <Value>TIME/JAM</Value>
+      </Textbox>
+      <Textbox Name="textbox52">
+        <Top>5.5in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>61</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>DATE/TANGGAL</Value>
+      </Textbox>
+      <Line Name="line19">
+        <Top>6.375in</Top>
+        <Width>6.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>60</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox51">
+        <Top>5.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>59</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>COLLECT BY  / DIAMBIL OLEH</Value>
+      </Textbox>
+      <Textbox Name="textbox54">
+        <Top>3.875in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>58</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5in</Left>
+        <Height>0.25in</Height>
+        <Value>PHONE - FACS / TELEPON FAXS</Value>
+      </Textbox>
+      <Textbox Name="textbox50">
+        <Top>3.875in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>57</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.375in</Height>
+        <Value>SPECIAL INSTRUCTION/
+INSTRUKSI KHUSUS</Value>
+      </Textbox>
+      <Line Name="line18">
+        <Top>5.375in</Top>
+        <Width>2in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>56</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line11">
+        <Top>5.125in</Top>
+        <Width>2in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>55</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox49">
+        <Top>2.5in</Top>
+        <Width>1.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>54</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>ADDRESS/ALAMAT</Value>
+      </Textbox>
+      <Line Name="line17">
+        <Top>3.875in</Top>
+        <Width>3.875in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>53</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line16">
+        <Top>2.375in</Top>
+        <Width>3.875in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>52</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox48">
+        <Top>1in</Top>
+        <Width>1.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>51</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.125in</Left>
+        <Height>0.25in</Height>
+        <Value>CONSIGNEE/DITUJUKAN KEPADA</Value>
+      </Textbox>
+      <Line Name="line15">
+        <Top>0.875in</Top>
+        <Width>6.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>50</ZIndex>
+        <Left>3in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line12">
+        <Top>5.375in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>49</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line32">
+        <Top>1.75in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>48</ZIndex>
+        <Left>6.875in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line31">
+        <Top>2.5in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>47</ZIndex>
+        <Left>6.875in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox67">
+        <Top>1.75in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>46</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.25in</Height>
+        <Value>PACKING</Value>
+      </Textbox>
+      <Line Name="line30">
+        <Top>3.375in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>45</ZIndex>
+        <Left>6.875in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line29">
+        <Top>4.125in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>44</ZIndex>
+        <Left>6.875in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox63">
+        <Top>4.875in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>43</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>DATE / TANGGAL</Value>
+      </Textbox>
+      <Textbox Name="textbox66">
+        <Top>2.5in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>42</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.25in</Height>
+        <Value>PPN</Value>
+      </Textbox>
+      <Textbox Name="textbox64">
+        <Top>3.375in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>41</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.375in</Height>
+        <Value>INSURANCE / ASURANSI</Value>
+      </Textbox>
+      <Textbox Name="textbox62">
+        <Top>5.625in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>40</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.25in</Left>
+        <Height>0.25in</Height>
+        <Value>TIME / JAM</Value>
+      </Textbox>
+      <Line Name="line28">
+        <Top>5.625in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>39</ZIndex>
+        <Left>8.125in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line27">
+        <Top>4.875in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>38</ZIndex>
+        <Left>8.125in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line24">
+        <Top>0.875in</Top>
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>37</ZIndex>
+        <Left>8.125in</Left>
+        <Height>5.5in</Height>
+      </Line>
+      <Textbox Name="textbox60">
+        <Top>0.875in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>36</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>8.125in</Left>
+        <Height>0.25in</Height>
+        <Value>CHARGE / HARGA</Value>
+      </Textbox>
+      <Textbox Name="textbox61">
+        <Top>4.25in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>12pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>35</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.5in</Height>
+        <Value>TOTAL / JUMLAH</Value>
+      </Textbox>
+      <Line Name="line25">
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>34</ZIndex>
+        <Left>9.375in</Left>
+        <Height>6.375in</Height>
+      </Line>
+      <Textbox Name="textbox59">
+        <Top>1.125in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>33</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.25in</Height>
+        <Value>SERVICE / LAYANAN</Value>
+      </Textbox>
+      <Line Name="line23">
+        <Top>1.125in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>32</ZIndex>
+        <Left>6.875in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line22">
+        <Top>6.375in</Top>
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>31</ZIndex>
+        <Left>6.875in</Left>
+        <Height>-5.5in</Height>
+      </Line>
+      <Textbox Name="textbox58">
+        <Top>5.875in</Top>
+        <Width>1.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>30</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.125in</Left>
+        <Height>0.25in</Height>
+        <Value>COMPANY'S STAM / CAP PERUSAHAAN </Value>
+      </Textbox>
+      <Textbox Name="textbox57">
+        <Top>5.5in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>29</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.125in</Left>
+        <Height>0.25in</Height>
+        <Value>SIGNATURE </Value>
+      </Textbox>
+      <Textbox Name="textbox56">
+        <Top>5.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>28</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.125in</Left>
+        <Height>0.25in</Height>
+        <Value>NAME / NAMA</Value>
+      </Textbox>
+      <Textbox Name="textbox65">
+        <Top>0.875in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>27</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7in</Left>
+        <Height>0.25in</Height>
+        <Value>ITEM COST</Value>
+      </Textbox>
+      <Line Name="line14">
+        <Top>6.375in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>26</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox28">
+        <Top>6in</Top>
+        <Width>2in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>25</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.625in</Left>
+        <Height>0.25in</Height>
+        <Value>6000</Value>
+      </Textbox>
+      <Line Name="line13">
+        <Top>6in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>24</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox26">
+        <Top>5.5in</Top>
+        <Width>2in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>23</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>DIMENSION (cm) / UKURAN (cm)</Value>
+      </Textbox>
+      <Textbox Name="textbox29">
+        <Top>4.375in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>22</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.375in</Height>
+        <Value>DESKRIPSI OF CONTENT/
+KETERANGAN ISI</Value>
+      </Textbox>
+      <Textbox Name="textbox27">
+        <Top>4.375in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>21</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.5in</Height>
+        <Value>CONSIGNOR'S AUTHORISATION/
+TANDA TANGAN PENGIRIM</Value>
+      </Textbox>
+      <Line Name="line10">
+        <Top>4.25in</Top>
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>20</ZIndex>
+        <Left>1.5in</Left>
+        <Height>1.125in</Height>
+      </Line>
+      <Textbox Name="textbox25">
+        <Top>4in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>19</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>PHONE - FACS / TELEPON FAX</Value>
+      </Textbox>
+      <Line Name="line9">
+        <Top>4.25in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>18</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line8">
+        <Top>3.875in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>17</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox23">
+        <Top>3.375in</Top>
+        <Width>2.75in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.5in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Top>3.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>15</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>ADDRESS / ALAMAT</Value>
+      </Textbox>
+      <Line Name="line7">
+        <Top>3in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox22">
+        <Top>2.375in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>CONSIGNOR / PENGIRIM</Value>
+      </Textbox>
+      <Line Name="line5">
+        <Top>2.25in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line6">
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <Left>3in</Left>
+        <Height>6.375in</Height>
+      </Line>
+      <Textbox Name="textbox21">
+        <Top>2.625in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>10</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>NO. ACCOUNT PENERIMA</Value>
+      </Textbox>
+      <Textbox Name="textbox20">
+        <Top>1.625in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>NO. REFERENSI PENERIMA</Value>
+      </Textbox>
+      <Textbox Name="textbox78">
+        <Top>1.625in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>NO. ACCOUNT PENERIMA</Value>
+      </Textbox>
+      <Line Name="line4">
+        <Top>1.5in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox83">
+        <Top>0.875in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>WEIGHT/BERAT	</Value>
+      </Textbox>
+      <Textbox Name="textbox86">
+        <Top>0.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.25in</Height>
+        <Value>DESTINATION/TUJUAN	</Value>
+      </Textbox>
+      <Line Name="line3">
+        <Width>0in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <Left>1.5in</Left>
+        <Height>2.25in</Height>
+      </Line>
+      <Textbox Name="textbox89">
+        <Top>0.875in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>PIECES / JUMLAH SATUAN</Value>
+      </Textbox>
+      <Line Name="line2">
+        <Top>0.75in</Top>
+        <Width>3in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox93">
+        <Top>0.125in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>ORIGIN/ASAL</Value>
+      </Textbox>
+      <Line Name="line1">
+        <Width>9.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Height>0in</Height>
+      </Line>
+    </ReportItems>
+    <Height>9.625in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

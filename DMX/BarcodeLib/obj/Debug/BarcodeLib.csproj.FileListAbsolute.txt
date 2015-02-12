@@ -1,0 +1,10 @@
+D:\Freelance\Source Code\barcode_src\BarcodeLib\bin\Debug\BarcodeLib.dll
+D:\Freelance\Source Code\barcode_src\BarcodeLib\bin\Debug\BarcodeLib.pdb
+D:\Freelance\Source Code\barcode_src\BarcodeLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\barcode_src\BarcodeLib\obj\Debug\BarcodeLib.dll
+D:\Freelance\Source Code\barcode_src\BarcodeLib\obj\Debug\BarcodeLib.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\BarcodeLib\bin\Debug\BarcodeLib.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\BarcodeLib\bin\Debug\BarcodeLib.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\BarcodeLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\DMX\BarcodeLib\obj\Debug\BarcodeLib.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\BarcodeLib\obj\Debug\BarcodeLib.pdb

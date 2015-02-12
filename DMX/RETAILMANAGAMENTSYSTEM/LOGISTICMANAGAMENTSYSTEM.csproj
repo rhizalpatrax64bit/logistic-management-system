@@ -1,0 +1,1712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC75FD31-D629-4FFA-81EE-5DDD674EF06C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LOGISTICMANAGAMENTSYSTEM</RootNamespace>
+    <AssemblyName>LOGISTICMANAGAMENTSYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.17, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BarcodeLib\bin\Debug\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=6.3.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DELIVERYORDER\FormDAFTARINVOICE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormDAFTARINVOICE.Designer.cs">
+      <DependentUpon>FormDAFTARINVOICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormNAVIGASICETAK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormNAVIGASICETAK.Designer.cs">
+      <DependentUpon>FormNAVIGASICETAK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXPRESS\FormBONGKARMUAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPRESS\FormBONGKARMUAT.Designer.cs">
+      <DependentUpon>FormBONGKARMUAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXPRESS\FormDAFTARSO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPRESS\FormDAFTARSO.Designer.cs">
+      <DependentUpon>FormDAFTARSO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormDAFTARSTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormDAFTARSTT.Designer.cs">
+      <DependentUpon>FormDAFTARSTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormDATAENTRY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormDATAENTRY.Designer.cs">
+      <DependentUpon>FormDATAENTRY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormORDERTRACKING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELIVERYORDER\FormORDERTRACKING.Designer.cs">
+      <DependentUpon>FormORDERTRACKING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXPRESS\FormENTRYPENGIRIMANBARANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPRESS\FormENTRYPENGIRIMANBARANG.Designer.cs">
+      <DependentUpon>FormENTRYPENGIRIMANBARANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXPRESS\FormENTRYSO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPRESS\FormENTRYSO.Designer.cs">
+      <DependentUpon>FormENTRYSO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXPRESS\FormDAFTARPENGIRIMANBARANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPRESS\FormDAFTARPENGIRIMANBARANG.Designer.cs">
+      <DependentUpon>FormDAFTARPENGIRIMANBARANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARBIAYASTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARBIAYASTT.Designer.cs">
+      <DependentUpon>FormDAFTARBIAYASTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARINVOICE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARINVOICE.Designer.cs">
+      <DependentUpon>FormDAFTARINVOICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARPEMBAYARANHUTANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARPEMBAYARANHUTANG.Designer.cs">
+      <DependentUpon>FormDAFTARPEMBAYARANHUTANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARPEMBAYRANPIUTANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormDAFTARPEMBAYRANPIUTANG.Designer.cs">
+      <DependentUpon>FormDAFTARPEMBAYRANPIUTANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormLAPORANPIUTANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormLAPORANPIUTANG.Designer.cs">
+      <DependentUpon>FormLAPORANPIUTANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARAN.Designer.cs">
+      <DependentUpon>FormPEMBAYARAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARANINVOICE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARANINVOICE.Designer.cs">
+      <DependentUpon>FormPEMBAYARANINVOICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARANTAGIHAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormPEMBAYARANTAGIHAN.Designer.cs">
+      <DependentUpon>FormPEMBAYARANTAGIHAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormTAGIHAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormTAGIHAN.Designer.cs">
+      <DependentUpon>FormTAGIHAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE\FormVIEWAGENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE\FormVIEWAGENT.Designer.cs">
+      <DependentUpon>FormVIEWAGENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLOGIN.Designer.cs">
+      <DependentUpon>FormLOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRETAIL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRETAIL.Designer.cs">
+      <DependentUpon>FormRETAIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormBANK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormBANK.Designer.cs">
+      <DependentUpon>FormBANK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormBARANGPROMO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormBARANGPROMO.Designer.cs">
+      <DependentUpon>FormBARANGPROMO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormBROADCAST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormBROADCAST.Designer.cs">
+      <DependentUpon>FormBROADCAST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormCUSTOMER.Designer.cs">
+      <DependentUpon>FormCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormCUSTOMEREXPRESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormCUSTOMEREXPRESS.Designer.cs">
+      <DependentUpon>FormCUSTOMEREXPRESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormDEPARTMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormDEPARTMENT.Designer.cs">
+      <DependentUpon>FormDEPARTMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormDEVELOPMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormDEVELOPMENT.Designer.cs">
+      <DependentUpon>FormDEVELOPMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormDRIVER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormDRIVER.Designer.cs">
+      <DependentUpon>FormDRIVER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormGUDANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormGUDANG.Designer.cs">
+      <DependentUpon>FormGUDANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormJENISPRODUK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormJENISPRODUK.Designer.cs">
+      <DependentUpon>FormJENISPRODUK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormKENDARAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormKENDARAAN.Designer.cs">
+      <DependentUpon>FormKENDARAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormKOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormKOTA.Designer.cs">
+      <DependentUpon>FormKOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormLABEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormLABEL.Designer.cs">
+      <DependentUpon>FormLABEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormMARKETING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormMARKETING.Designer.cs">
+      <DependentUpon>FormMARKETING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormMEMBER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormMEMBER.Designer.cs">
+      <DependentUpon>FormMEMBER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormPENERIMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormPENERIMA.Designer.cs">
+      <DependentUpon>FormPENERIMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormPRICELIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormPRICELIST.Designer.cs">
+      <DependentUpon>FormPRICELIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormPRICELISTAGENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormPRICELISTAGENT.Designer.cs">
+      <DependentUpon>FormPRICELISTAGENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormSALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormSALES.Designer.cs">
+      <DependentUpon>FormSALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormSATUAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormSATUAN.Designer.cs">
+      <DependentUpon>FormSATUAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormSTATUSKENDARAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormSTATUSKENDARAAN.Designer.cs">
+      <DependentUpon>FormSTATUSKENDARAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormSUPPLIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormSUPPLIER.Designer.cs">
+      <DependentUpon>FormSUPPLIER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormTARIF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormTARIF.Designer.cs">
+      <DependentUpon>FormTARIF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormTENTANGPERUSAHAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormTENTANGPERUSAHAAN.Designer.cs">
+      <DependentUpon>FormTENTANGPERUSAHAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\FormUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\FormUSER.Designer.cs">
+      <DependentUpon>FormUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsCUSTOMER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCUSTOMER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsDRIVER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDRIVER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsKENDARAAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsKENDARAAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsMARKETING.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMARKETING.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsPENERIMA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPENERIMA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsPRICELISTAGENT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPRICELISTAGENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormPRICELISTAGENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormPRICELISTAGENT.Designer.cs">
+      <DependentUpon>FormPRICELISTAGENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerDriver.Designer.cs">
+      <DependentUpon>FormViewerDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerKENDARAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerKENDARAAN.Designer.cs">
+      <DependentUpon>FormViewerKENDARAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerPENERIMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerPENERIMA.Designer.cs">
+      <DependentUpon>FormViewerPENERIMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\penerima.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>penerima.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\PRICELIST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PRICELIST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\pricelistagent.cs">
+      <DependentUpon>pricelistagent.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="MASTER\REPORT\customer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>customer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsAGENT.cs">
+      <DependentUpon>dsAGENT.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\dsAGENT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAGENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerAGENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerAGENT.Designer.cs">
+      <DependentUpon>FormViewerAGENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\agent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>agent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerCUSTOMER.Designer.cs">
+      <DependentUpon>FormViewerCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerMARKETING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerMARKETING.Designer.cs">
+      <DependentUpon>FormViewerMARKETING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerPRICELIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerPRICELIST.Designer.cs">
+      <DependentUpon>FormViewerPRICELIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerSALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\FormViewerSALES.Designer.cs">
+      <DependentUpon>FormViewerSALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\REPORT\marketing.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>marketing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\pricelist.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pricelist.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\reportpricelistagent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportpricelistagent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\REPORT\sales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormADDITEMJENISANGGOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormADDITEMJENISANGGOTA.Designer.cs">
+      <DependentUpon>FormADDITEMJENISANGGOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormAREA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormAREA.Designer.cs">
+      <DependentUpon>FormAREA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBACKUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBACKUP.Designer.cs">
+      <DependentUpon>FormBACKUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBANK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBANK.Designer.cs">
+      <DependentUpon>FormBANK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBARANGPROMO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormBARANGPROMO.Designer.cs">
+      <DependentUpon>FormBARANGPROMO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormCUSTOMER.Designer.cs">
+      <DependentUpon>FormCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormDEPARTMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormDEPARTMENT.Designer.cs">
+      <DependentUpon>FormDEPARTMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormDRIVERHELPER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormDRIVERHELPER.Designer.cs">
+      <DependentUpon>FormDRIVERHELPER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormGUDANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormGUDANG.Designer.cs">
+      <DependentUpon>FormGUDANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormKENDARAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormKENDARAAN.Designer.cs">
+      <DependentUpon>FormKENDARAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormKOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormKOTA.Designer.cs">
+      <DependentUpon>FormKOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormLABEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormLABEL.Designer.cs">
+      <DependentUpon>FormLABEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormMARKETING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormMARKETING.Designer.cs">
+      <DependentUpon>FormMARKETING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormMEMBER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormMEMBER.Designer.cs">
+      <DependentUpon>FormMEMBER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormPENERIMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormPENERIMA.Designer.cs">
+      <DependentUpon>FormPENERIMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormPRICELIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormPRICELIST.Designer.cs">
+      <DependentUpon>FormPRICELIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormRESTORE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormRESTORE.Designer.cs">
+      <DependentUpon>FormRESTORE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSALES.Designer.cs">
+      <DependentUpon>FormSALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSATUAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSATUAN.Designer.cs">
+      <DependentUpon>FormSATUAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSUPPLIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormSUPPLIER.Designer.cs">
+      <DependentUpon>FormSUPPLIER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormTERUSAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASTER\SUBMASTER\FormTERUSAN.Designer.cs">
+      <DependentUpon>FormTERUSAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DELIVERYORDER\FormDAFTARINVOICE.resx">
+      <DependentUpon>FormDAFTARINVOICE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DELIVERYORDER\FormNAVIGASICETAK.resx">
+      <DependentUpon>FormNAVIGASICETAK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPRESS\FormBONGKARMUAT.resx">
+      <DependentUpon>FormBONGKARMUAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPRESS\FormDAFTARSO.resx">
+      <DependentUpon>FormDAFTARSO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DELIVERYORDER\FormDAFTARSTT.resx">
+      <DependentUpon>FormDAFTARSTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DELIVERYORDER\FormDATAENTRY.resx">
+      <DependentUpon>FormDATAENTRY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DELIVERYORDER\FormORDERTRACKING.resx">
+      <DependentUpon>FormORDERTRACKING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPRESS\FormENTRYPENGIRIMANBARANG.resx">
+      <DependentUpon>FormENTRYPENGIRIMANBARANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPRESS\FormENTRYSO.resx">
+      <DependentUpon>FormENTRYSO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPRESS\FormDAFTARPENGIRIMANBARANG.resx">
+      <DependentUpon>FormDAFTARPENGIRIMANBARANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormDAFTARBIAYASTT.resx">
+      <DependentUpon>FormDAFTARBIAYASTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormDAFTARINVOICE.resx">
+      <DependentUpon>FormDAFTARINVOICE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormDAFTARPEMBAYARANHUTANG.resx">
+      <DependentUpon>FormDAFTARPEMBAYARANHUTANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormDAFTARPEMBAYRANPIUTANG.resx">
+      <DependentUpon>FormDAFTARPEMBAYRANPIUTANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormLAPORANPIUTANG.resx">
+      <DependentUpon>FormLAPORANPIUTANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormPEMBAYARAN.resx">
+      <DependentUpon>FormPEMBAYARAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormPEMBAYARANINVOICE.resx">
+      <DependentUpon>FormPEMBAYARANINVOICE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormPEMBAYARANTAGIHAN.resx">
+      <DependentUpon>FormPEMBAYARANTAGIHAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormTAGIHAN.resx">
+      <DependentUpon>FormTAGIHAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE\FormVIEWAGENT.resx">
+      <DependentUpon>FormVIEWAGENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLOGIN.resx">
+      <DependentUpon>FormLOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRETAIL.resx">
+      <DependentUpon>FormRETAIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormBANK.resx">
+      <DependentUpon>FormBANK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormBARANGPROMO.resx">
+      <DependentUpon>FormBARANGPROMO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormBROADCAST.resx">
+      <DependentUpon>FormBROADCAST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormCUSTOMER.resx">
+      <DependentUpon>FormCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormDEPARTMENT.resx">
+      <DependentUpon>FormDEPARTMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormDEVELOPMENT.resx">
+      <DependentUpon>FormDEVELOPMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormDRIVER.resx">
+      <DependentUpon>FormDRIVER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormGUDANG.resx">
+      <DependentUpon>FormGUDANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormJENISPRODUK.resx">
+      <DependentUpon>FormJENISPRODUK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormKENDARAAN.resx">
+      <DependentUpon>FormKENDARAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormKOTA.resx">
+      <DependentUpon>FormKOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormLABEL.resx">
+      <DependentUpon>FormLABEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormMARKETING.resx">
+      <DependentUpon>FormMARKETING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormMEMBER.resx">
+      <DependentUpon>FormMEMBER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormPENERIMA.resx">
+      <DependentUpon>FormPENERIMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormPRICELIST.resx">
+      <DependentUpon>FormPRICELIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormPRICELISTAGENT.resx">
+      <DependentUpon>FormPRICELISTAGENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormSALES.resx">
+      <DependentUpon>FormSALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormSATUAN.resx">
+      <DependentUpon>FormSATUAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormSTATUSKENDARAAN.resx">
+      <DependentUpon>FormSTATUSKENDARAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormSUPPLIER.resx">
+      <DependentUpon>FormSUPPLIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormTARIF.resx">
+      <DependentUpon>FormTARIF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormTENTANGPERUSAHAAN.resx">
+      <DependentUpon>FormTENTANGPERUSAHAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\FormUSER.resx">
+      <DependentUpon>FormUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormPRICELISTAGENT.resx">
+      <DependentUpon>FormPRICELISTAGENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerDriver.resx">
+      <DependentUpon>FormViewerDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerKENDARAAN.resx">
+      <DependentUpon>FormViewerKENDARAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerPENERIMA.resx">
+      <DependentUpon>FormViewerPENERIMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\masterAgent.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterCUSTOMER.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterDriver.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterKENDARAAN.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterMarketing.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterPenerima.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\masterPricelist.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\penerima.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>penerima.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\pricelistAgent.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\pricelistagent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pricelistagent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\customer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>customer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerAGENT.resx">
+      <DependentUpon>FormViewerAGENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\agent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>agent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerCUSTOMER.resx">
+      <DependentUpon>FormViewerCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerMARKETING.resx">
+      <DependentUpon>FormViewerMARKETING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerPRICELIST.resx">
+      <DependentUpon>FormViewerPRICELIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\FormViewerSALES.resx">
+      <DependentUpon>FormViewerSALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\marketing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>marketing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\pricelist.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pricelist.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\quotationPricelist.rdlc" />
+    <EmbeddedResource Include="MASTER\REPORT\reportpricelistagent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportpricelistagent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\REPORT\sales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>sales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormADDITEMJENISANGGOTA.resx">
+      <DependentUpon>FormADDITEMJENISANGGOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormAREA.resx">
+      <DependentUpon>FormAREA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormBACKUP.resx">
+      <DependentUpon>FormBACKUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormBANK.resx">
+      <DependentUpon>FormBANK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormBARANGPROMO.resx">
+      <DependentUpon>FormBARANGPROMO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormCUSTOMER.resx">
+      <DependentUpon>FormCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormDEPARTMENT.resx">
+      <DependentUpon>FormDEPARTMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormDRIVERHELPER.resx">
+      <DependentUpon>FormDRIVERHELPER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormGUDANG.resx">
+      <DependentUpon>FormGUDANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormKENDARAAN.resx">
+      <DependentUpon>FormKENDARAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormKOTA.resx">
+      <DependentUpon>FormKOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormLABEL.resx">
+      <DependentUpon>FormLABEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormMARKETING.resx">
+      <DependentUpon>FormMARKETING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormMEMBER.resx">
+      <DependentUpon>FormMEMBER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormPENERIMA.resx">
+      <DependentUpon>FormPENERIMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormPRICELIST.resx">
+      <DependentUpon>FormPRICELIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormRESTORE.resx">
+      <DependentUpon>FormRESTORE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormSALES.resx">
+      <DependentUpon>FormSALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormSATUAN.resx">
+      <DependentUpon>FormSATUAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormSUPPLIER.resx">
+      <DependentUpon>FormSUPPLIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASTER\SUBMASTER\FormTERUSAN.resx">
+      <DependentUpon>FormTERUSAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\FormORDER.resx">
+      <DependentUpon>FormORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\FormPEMBELIAN.resx">
+      <DependentUpon>FormPEMBELIAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\FormRETURPEMBELIAN.resx">
+      <DependentUpon>FormRETURPEMBELIAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDITEM.resx">
+      <DependentUpon>FormADDITEM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDITEMPEMBELIAN.resx">
+      <DependentUpon>FormADDITEMPEMBELIAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDITEMRETUR.resx">
+      <DependentUpon>FormADDITEMRETUR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDORDER.resx">
+      <DependentUpon>FormADDORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDPEMBELIAN.resx">
+      <DependentUpon>FormADDPEMBELIAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PURCHASE\SUBPURCHASE\FormADDRETUR.resx">
+      <DependentUpon>FormADDRETUR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\cetakRESI.rdlc" />
+    <EmbeddedResource Include="REPORTS\EXPRESS\cetakSPJ.rdlc" />
+    <EmbeddedResource Include="REPORTS\EXPRESS\FormRESIEXPRESS.resx">
+      <DependentUpon>FormRESIEXPRESS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\FormViewerCARGO.resx">
+      <DependentUpon>FormViewerCARGO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\FormViewerCETAKSPJ.resx">
+      <DependentUpon>FormViewerCETAKSPJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\FormViewerSPJ.resx">
+      <DependentUpon>FormViewerSPJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\reportCOURIER.rdlc" />
+    <EmbeddedResource Include="REPORTS\EXPRESS\reportSPJ.rdlc" />
+    <EmbeddedResource Include="REPORTS\INVOICE\BIAYASTT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BIAYASTT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\cetakINVOICE.rdlc" />
+    <EmbeddedResource Include="REPORTS\INVOICE\cetakRESICARGO.rdlc" />
+    <EmbeddedResource Include="REPORTS\INVOICE\FormBIAYASTT.resx">
+      <DependentUpon>FormBIAYASTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\FormINVOICE.resx">
+      <DependentUpon>FormINVOICE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\FormSTT.resx">
+      <DependentUpon>FormSTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\FormViewerRESICARGO.resx">
+      <DependentUpon>FormViewerRESICARGO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\INVOICE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>INVOICE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXPRESS\RESI.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RESI.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\INVOICE\reportBIAYA.rdlc" />
+    <EmbeddedResource Include="REPORTS\INVOICE\reportPENERIMAANCARGO.rdlc" />
+    <EmbeddedResource Include="REPORTS\INVOICE\STT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>STT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PIUTANG\FormLAPORANPIUTANG.resx">
+      <DependentUpon>FormLAPORANPIUTANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PIUTANG\PIUTANG.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PIUTANG.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PIUTANG\reportPIUTANG.rdlc" />
+    <EmbeddedResource Include="REPORTS\TAGIHAN\FormTAGIHAN.resx">
+      <DependentUpon>FormTAGIHAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\TAGIHAN\TAGIHAN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TAGIHAN.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UTILITY\FormSETTING.resx">
+      <DependentUpon>FormSETTING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormCUSTOMEREXPRESS.resx">
+      <DependentUpon>FormCUSTOMEREXPRESS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormDRIVERHELPER.resx">
+      <DependentUpon>FormDRIVERHELPER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormTAMBAHCUSTOMER.resx">
+      <DependentUpon>FormTAMBAHCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormTAMBAHPENERIMA.resx">
+      <DependentUpon>FormTAMBAHPENERIMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWAGENT.resx">
+      <DependentUpon>FormVIEWAGENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWBANK.resx">
+      <DependentUpon>FormVIEWBANK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWBARANG.resx">
+      <DependentUpon>FormVIEWBARANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWCUSTOMER.resx">
+      <DependentUpon>FormVIEWCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWDEPARTMENT.resx">
+      <DependentUpon>FormVIEWDEPARTMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWKENDARAAN.resx">
+      <DependentUpon>FormVIEWKENDARAAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWKOTA.resx">
+      <DependentUpon>FormVIEWKOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWKOTAEXPRESS.resx">
+      <DependentUpon>FormVIEWKOTAEXPRESS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWKOTATERUSAN.resx">
+      <DependentUpon>FormVIEWKOTATERUSAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWMARKETING.resx">
+      <DependentUpon>FormVIEWMARKETING.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWMISSROUTE.resx">
+      <DependentUpon>FormVIEWMISSROUTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWPENERIMA.resx">
+      <DependentUpon>FormVIEWPENERIMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWPENERIMAANBARANG.resx">
+      <DependentUpon>FormVIEWPENERIMAANBARANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWPENERIMAEXPRESS.resx">
+      <DependentUpon>FormVIEWPENERIMAEXPRESS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWPRICELISTCUSTOMER.resx">
+      <DependentUpon>FormVIEWPRICELISTCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWSATUAN.resx">
+      <DependentUpon>FormVIEWSATUAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\FormVIEWSUPPLIER.resx">
+      <DependentUpon>FormVIEWSUPPLIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="MASTER\REPORT\dsAGENT.xsc">
+      <DependentUpon>dsAGENT.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsAGENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAGENT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsAGENT.xss">
+      <DependentUpon>dsAGENT.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsCUSTOMER.xsc">
+      <DependentUpon>dsCUSTOMER.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsCUSTOMER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCUSTOMER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsCUSTOMER.xss">
+      <DependentUpon>dsCUSTOMER.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsDRIVER.xsc">
+      <DependentUpon>dsDRIVER.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsDRIVER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDRIVER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsDRIVER.xss">
+      <DependentUpon>dsDRIVER.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsKENDARAAN.xsc">
+      <DependentUpon>dsKENDARAAN.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsKENDARAAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsKENDARAAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsKENDARAAN.xss">
+      <DependentUpon>dsKENDARAAN.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsMARKETING.xsc">
+      <DependentUpon>dsMARKETING.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsMARKETING.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMARKETING.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsMARKETING.xss">
+      <DependentUpon>dsMARKETING.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsPENERIMA.xsc">
+      <DependentUpon>dsPENERIMA.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsPENERIMA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPENERIMA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsPENERIMA.xss">
+      <DependentUpon>dsPENERIMA.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsPRICELISTAGENT.xsc">
+      <DependentUpon>dsPRICELISTAGENT.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\dsPRICELISTAGENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPRICELISTAGENT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\dsPRICELISTAGENT.xss">
+      <DependentUpon>dsPRICELISTAGENT.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\PRICELIST.xsc">
+      <DependentUpon>PRICELIST.xsd</DependentUpon>
+    </None>
+    <None Include="MASTER\REPORT\PRICELIST.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PRICELIST.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MASTER\REPORT\PRICELIST.xss">
+      <DependentUpon>PRICELIST.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\BarcodeLib.Barcode.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsCOURIER.xsc">
+      <DependentUpon>dsCOURIER.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsCOURIER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCOURIER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsCOURIER.xss">
+      <DependentUpon>dsCOURIER.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsRESI.xsc">
+      <DependentUpon>dsRESI.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsRESI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRESI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsRESI.xss">
+      <DependentUpon>dsRESI.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsSPJ.xsc">
+      <DependentUpon>dsSPJ.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsSPJ.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSPJ.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\EXPRESS\dsSPJ.xss">
+      <DependentUpon>dsSPJ.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\reportSPJ.xsc">
+      <DependentUpon>reportSPJ.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\EXPRESS\reportSPJ.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reportSPJ.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="REPORTS\EXPRESS\reportSPJ.xss">
+      <DependentUpon>reportSPJ.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsBIAYA.xsc">
+      <DependentUpon>dsBIAYA.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsBIAYA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBIAYA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\INVOICE\dsBIAYA.xss">
+      <DependentUpon>dsBIAYA.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\DSINVOICE.xsc">
+      <DependentUpon>DSINVOICE.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\DSINVOICE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSINVOICE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\INVOICE\DSINVOICE.xss">
+      <DependentUpon>DSINVOICE.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsINVOICING.xsc">
+      <DependentUpon>dsINVOICING.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsINVOICING.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsINVOICING.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\INVOICE\dsINVOICING.xss">
+      <DependentUpon>dsINVOICING.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsPENERIMAANCARGO.xsc">
+      <DependentUpon>dsPENERIMAANCARGO.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsPENERIMAANCARGO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPENERIMAANCARGO.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\INVOICE\dsPENERIMAANCARGO.xss">
+      <DependentUpon>dsPENERIMAANCARGO.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsRESICARGO.xsc">
+      <DependentUpon>dsRESICARGO.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\INVOICE\dsRESICARGO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRESICARGO.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\INVOICE\dsRESICARGO.xss">
+      <DependentUpon>dsRESICARGO.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\PIUTANG\DSPIUTANG.xsc">
+      <DependentUpon>DSPIUTANG.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\PIUTANG\DSPIUTANG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPIUTANG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\PIUTANG\DSPIUTANG.xss">
+      <DependentUpon>DSPIUTANG.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\TAGIHAN\DSTAGIHAN.xsc">
+      <DependentUpon>DSTAGIHAN.xsd</DependentUpon>
+    </None>
+    <None Include="REPORTS\TAGIHAN\DSTAGIHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSTAGIHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="REPORTS\TAGIHAN\DSTAGIHAN.xss">
+      <DependentUpon>DSTAGIHAN.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PURCHASE\FormORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\FormORDER.Designer.cs">
+      <DependentUpon>FormORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\FormPEMBELIAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\FormPEMBELIAN.Designer.cs">
+      <DependentUpon>FormPEMBELIAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\FormRETURPEMBELIAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\FormRETURPEMBELIAN.Designer.cs">
+      <DependentUpon>FormRETURPEMBELIAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEM.Designer.cs">
+      <DependentUpon>FormADDITEM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEMPEMBELIAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEMPEMBELIAN.Designer.cs">
+      <DependentUpon>FormADDITEMPEMBELIAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEMRETUR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDITEMRETUR.Designer.cs">
+      <DependentUpon>FormADDITEMRETUR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDORDER.Designer.cs">
+      <DependentUpon>FormADDORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDPEMBELIAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDPEMBELIAN.Designer.cs">
+      <DependentUpon>FormADDPEMBELIAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDRETUR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PURCHASE\SUBPURCHASE\FormADDRETUR.Designer.cs">
+      <DependentUpon>FormADDRETUR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\dsCOURIER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCOURIER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\dsRESI.cs">
+      <DependentUpon>dsRESI.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\dsRESI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRESI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\dsSPJ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSPJ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormRESIEXPRESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormRESIEXPRESS.Designer.cs">
+      <DependentUpon>FormRESIEXPRESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerCARGO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerCARGO.Designer.cs">
+      <DependentUpon>FormViewerCARGO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerCETAKSPJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerCETAKSPJ.Designer.cs">
+      <DependentUpon>FormViewerCETAKSPJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerSPJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\FormViewerSPJ.Designer.cs">
+      <DependentUpon>FormViewerSPJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\reportSPJ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportSPJ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\BIAYASTT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BIAYASTT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\dsBIAYA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBIAYA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\DSINVOICE.cs">
+      <DependentUpon>DSINVOICE.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\DSINVOICE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSINVOICE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\dsINVOICING.cs">
+      <DependentUpon>dsINVOICING.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\dsINVOICING.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsINVOICING.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\dsPENERIMAANCARGO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPENERIMAANCARGO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\dsRESICARGO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRESICARGO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormBIAYASTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormBIAYASTT.Designer.cs">
+      <DependentUpon>FormBIAYASTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormINVOICE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormINVOICE.Designer.cs">
+      <DependentUpon>FormINVOICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormSTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormSTT.Designer.cs">
+      <DependentUpon>FormSTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormViewerRESICARGO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\FormViewerRESICARGO.Designer.cs">
+      <DependentUpon>FormViewerRESICARGO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\INVOICE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>INVOICE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXPRESS\RESI.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RESI.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\INVOICE\STT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PIUTANG\DSPIUTANG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPIUTANG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\PIUTANG\FormLAPORANPIUTANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PIUTANG\FormLAPORANPIUTANG.Designer.cs">
+      <DependentUpon>FormLAPORANPIUTANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\PIUTANG\PIUTANG.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PIUTANG.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\TAGIHAN\DSTAGIHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSTAGIHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\TAGIHAN\FormTAGIHAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\TAGIHAN\FormTAGIHAN.Designer.cs">
+      <DependentUpon>FormTAGIHAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\TAGIHAN\TAGIHAN.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TAGIHAN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UTILITY\FormSETTING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UTILITY\FormSETTING.Designer.cs">
+      <DependentUpon>FormSETTING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormCUSTOMEREXPRESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormCUSTOMEREXPRESS.Designer.cs">
+      <DependentUpon>FormCUSTOMEREXPRESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormDRIVERHELPER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormDRIVERHELPER.Designer.cs">
+      <DependentUpon>FormDRIVERHELPER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormTAMBAHCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormTAMBAHCUSTOMER.Designer.cs">
+      <DependentUpon>FormTAMBAHCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormTAMBAHPENERIMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormTAMBAHPENERIMA.Designer.cs">
+      <DependentUpon>FormTAMBAHPENERIMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWAGENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWAGENT.Designer.cs">
+      <DependentUpon>FormVIEWAGENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWBANK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWBANK.Designer.cs">
+      <DependentUpon>FormVIEWBANK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWBARANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWBARANG.Designer.cs">
+      <DependentUpon>FormVIEWBARANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWCUSTOMER.Designer.cs">
+      <DependentUpon>FormVIEWCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWDEPARTMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWDEPARTMENT.Designer.cs">
+      <DependentUpon>FormVIEWDEPARTMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKENDARAAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKENDARAAN.Designer.cs">
+      <DependentUpon>FormVIEWKENDARAAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTA.Designer.cs">
+      <DependentUpon>FormVIEWKOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTAEXPRESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTAEXPRESS.Designer.cs">
+      <DependentUpon>FormVIEWKOTAEXPRESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTATERUSAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWKOTATERUSAN.Designer.cs">
+      <DependentUpon>FormVIEWKOTATERUSAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWMARKETING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWMARKETING.Designer.cs">
+      <DependentUpon>FormVIEWMARKETING.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWMISSROUTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWMISSROUTE.Designer.cs">
+      <DependentUpon>FormVIEWMISSROUTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMA.Designer.cs">
+      <DependentUpon>FormVIEWPENERIMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMAANBARANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMAANBARANG.Designer.cs">
+      <DependentUpon>FormVIEWPENERIMAANBARANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMAEXPRESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPENERIMAEXPRESS.Designer.cs">
+      <DependentUpon>FormVIEWPENERIMAEXPRESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPRICELISTCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWPRICELISTCUSTOMER.Designer.cs">
+      <DependentUpon>FormVIEWPRICELISTCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWSATUAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWSATUAN.Designer.cs">
+      <DependentUpon>FormVIEWSATUAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWSUPPLIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\FormVIEWSUPPLIER.Designer.cs">
+      <DependentUpon>FormVIEWSUPPLIER.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anovsys.DAL\Anovsys.DAL.csproj">
+      <Project>{EC7EC4F2-2922-4BFD-89F1-1481FF611D97}</Project>
+      <Name>Anovsys.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RMS.BUSSINES\RMS.BUSSINES.csproj">
+      <Project>{DBC532B8-F5E0-4BFC-9A7F-56F2A2092146}</Project>
+      <Name>RMS.BUSSINES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RMS.COMMON\RMS.COMMON.csproj">
+      <Project>{56EAE83E-0EE1-43DA-BB7A-5EB2F53C5C09}</Project>
+      <Name>RMS.COMMON</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+D:\Software House\SuperMarket\FamilyPOS\Anovsys.DAL\bin\Release\Anovsys.DAL.dll
+D:\Software House\SuperMarket\FamilyPOS\Anovsys.DAL\bin\Release\Anovsys.DAL.pdb
+D:\Software House\SuperMarket\FamilyPOS\Anovsys.DAL\obj\Release\ResolveAssemblyReference.cache
+D:\Software House\SuperMarket\FamilyPOS\Anovsys.DAL\obj\Release\Anovsys.DAL.dll
+D:\Software House\SuperMarket\FamilyPOS\Anovsys.DAL\obj\Release\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\bin\Release\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\bin\Release\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Release\ResolveAssemblyReference.cache
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Release\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Release\Anovsys.DAL.pdb

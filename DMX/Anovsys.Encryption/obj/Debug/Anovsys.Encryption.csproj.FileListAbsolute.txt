@@ -1,0 +1,45 @@
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Software House\Braga\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\Braga\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\Braga\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Braga\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Software House\Braga\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Software House\Bengkel\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\Bengkel\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\Bengkel\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Bengkel\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Software House\Bengkel\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.Encryption\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.Encryption\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.Encryption\obj\Debug\Anovsys.Encryption.pdb
