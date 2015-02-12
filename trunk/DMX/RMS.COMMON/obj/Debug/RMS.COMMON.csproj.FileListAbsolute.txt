@@ -1,0 +1,30 @@
+D:\Software House\RETAIL\SOURCE CODE II\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Software House\RETAIL\SOURCE CODE II\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\RETAIL\SOURCE CODE II\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.COMMON\obj\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.COMMON\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.COMMON\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.COMMON\obj\Debug\RMS.COMMON.pdb

@@ -1,0 +1,46 @@
+Pengujian Logistic Management System
+- Kelola Data Agent
+   - Kurang Validasi Field requirement eg. email, tlpn
+   - Handling & Other Handling itu perlakuannya diperjelas
+   - View agent other handling belum lengkap menampilkan
+- Data Kota
+  - Aoutomatic Kode Kota Belum Ada
+- Pricelist Customer [ Pengisian Harga untuk customer tertentu]
+  - Field Kota Asal, Kota Tujuan, Terusan Auto Complete Pencarian belum ada
+  - Terusan Jika tidak diisi tidak bisa diinput [ karena default non terusan itu id 0, sementara pas diinput non 0 tidak ditemukan, jadi we error]
+- Pricelist Agent Case Sama dengan Pricelist Customer
+
+Input STT / Penerimaan Barang
+- Informasi Biya jika tidak tampil karena Service & Handling nya tidak ada di agent, mohon tampilkan keterangan nya
+- Catatan, Penginputan Biaya itu dilakukan oleh manager 
+- Validasi2 mohon di cek & recheck again
+- Penghapusan kode terusan harusnya diiringi dengan penghapusan nama terusan
+- Check lagi untuk variable biaya freigh.. ko masih nongol  2500
+- Pencarian di view kelola stt berdasarkan tgl stt / penerimaan
+- Perbaikin lagi prihal status stt, inv, paid, collect, dll untuk di standarkan dengan penamaan standard logistic 
+- Aga lama pada saat panggil crystal report
+- di sistem ini tidak ada pencetakan invoice ulang, sepertinya harus ada untuk pencetakan ulang jika invoice yang dicetak lupa di print ato disimpan
+- Cetak invoice, nama perusahaan, no kode perusahaan, rekening bayar, itu ngambil dari database   
+- Belum yakin untuk pencetakan invoice dilakukan di komputer orang lain [other client]
+- Coba lakukan pengujian jika penomoran invoice
+
+Supaya Tidak Lupa
+Inv - Rekomendasi Untuk dicetak invoice
+Paid - Status Invoice Sudah di Cetak 
+Collect - Itu lupa
+Cash - Pembayaran Langsung Cash
+
+Pembayaran Customer
+- Kuitansi Pembayaran harusnya ada ya
+
+Pembayaran Biaya Vedor Itu berdasarkan invoice yang datang dari vendor
+Ada 2 Metode
+1. Input Tagihan
+2. Input Pembayaran Tagihan
+
+Laporan dianalisa lagi
+- Pencetakan Laporan di kompi client ko tidak bisa, itu belum ketemu penyebabnya
+
+- Klo ga salah disaat client berjalan, suka bentrok koneksi mysql, ato lock sehingga program muncul error koneksi lagi, knpa ya ?
+
+

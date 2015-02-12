@@ -1,0 +1,71 @@
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Software House\RETAIL\SOURCE CODE II\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\MySql.Data.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Gavindo Logic Solution\Source Code\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\MySql.Data.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\MySql.Data.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\MySql.Data.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.PROCESSING.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\MySql.Data.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\RMS.COMMON.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\RMS.PROCESSING\obj\Debug\RMS.PROCESSING.pdb

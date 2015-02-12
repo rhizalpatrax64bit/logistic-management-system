@@ -1,0 +1,121 @@
+D:\Software House\Apotik\AnovsysApotek\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\Apotik\AnovsysApotek\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\Apotik\AnovsysApotek\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Apotik\AnovsysApotek\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\Apotik\AnovsysApotek\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Apotik\Apotek Standart\AnovsysApotekStandart\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\Apotik\Apotek Standart\AnovsysApotekStandart\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\Apotik\Apotek Standart\AnovsysApotekStandart\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Apotik\Apotek Standart\AnovsysApotekStandart\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\Apotik\Apotek Standart\AnovsysApotekStandart\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Library\AnovsysLibrary\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Standart\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\TOKO\Toko Level\AnovsysToko\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\- Data Nu Batur -\Titipan Arif\New folder\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Braga\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\Braga\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\Braga\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\Braga\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\Braga\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Software House\Bengkel\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\Bengkel\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\Bengkel\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\Bengkel\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\Bengkel\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Software House\RETAIL\SOURCE CODE II\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Gavindo Logic Solution\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.DAL.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\bin\Debug\MySql.Data.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\bin\Debug\Anovsys.Encryption.pdb
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.FormCONFIG.resources
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.Properties.Resources.resources
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.csproj.GenerateResource.Cache
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.dll
+D:\Freelance\Source Code\DMX\DMX\DMX\Anovsys.DAL\obj\Debug\Anovsys.DAL.pdb

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56EAE83E-0EE1-43DA-BB7A-5EB2F53C5C09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RMS.COMMON</RootNamespace>
+    <AssemblyName>RMS.COMMON</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DELIVERYORDER\RMS_TAGIHAN.cs" />
+    <Compile Include="DELIVERYORDER\RMS_PEMBAYARAN.cs" />
+    <Compile Include="DELIVERYORDER\RMS_DETAILINVOICE.cs" />
+    <Compile Include="DELIVERYORDER\RMS_INVOICE.cs" />
+    <Compile Include="EXPRESS\RMS_SPJ.cs" />
+    <Compile Include="EXPRESS\RMS_TRANSAKSI.cs" />
+    <Compile Include="GENERAL\RMS_COMBO.cs" />
+    <Compile Include="LAPORAN\RMS_LAPORANPIUTANG.cs" />
+    <Compile Include="MASTER\RMS_STATURORDER.cs" />
+    <Compile Include="MASTER\RMS_KENDARAAN.cs" />
+    <Compile Include="MASTER\RMS_DRIVER.cs" />
+    <Compile Include="MASTER\RMS_TARIF.cs" />
+    <Compile Include="MASTER\RMS_JENISPRODUK.cs" />
+    <Compile Include="MASTER\RMS_TENTANGPERUSAHAAN.cs" />
+    <Compile Include="MASTER\RMS_PENERIMA.cs" />
+    <Compile Include="MASTER\RMS_PRICELISTAGENT.cs" />
+    <Compile Include="MASTER\RMS_LOGIN.cs" />
+    <Compile Include="MASTER\RMS_USER.cs" />
+    <Compile Include="MASTER\RMS_KOTATERUSAN.cs" />
+    <Compile Include="MASTER\RMS_KOTA.cs" />
+    <Compile Include="MASTER\RMS_MARKETING.cs" />
+    <Compile Include="MASTER\RMS_PRICELIST.cs" />
+    <Compile Include="MASTER\RMS_BANK.cs" />
+    <Compile Include="MASTER\RMS_BARANG.cs" />
+    <Compile Include="MASTER\RMS_BARANGPROMO.cs" />
+    <Compile Include="MASTER\RMS_CUSTOMER.cs" />
+    <Compile Include="MASTER\RMS_DEPARTMENT.cs" />
+    <Compile Include="MASTER\RMS_GUDANG.cs" />
+    <Compile Include="MASTER\RMS_JENISANGGOTA.cs" />
+    <Compile Include="MASTER\RMS_MEMBER.cs" />
+    <Compile Include="MASTER\RMS_SALES.cs" />
+    <Compile Include="MASTER\RMS_SATUAN.cs" />
+    <Compile Include="MASTER\RMS_SUPPLIER.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
